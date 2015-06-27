@@ -4,20 +4,20 @@
 
 ##### 使用方法:
 
-1.  引用 js 文件
+html:
 
-    ```
-    <script type="text/javascript" src="scripts/directives/autosize.js"></script>
-    ```
+```
+<script type="text/javascript" src="angular.js"></script>
+<script type="text/javascript" src="ng-autosize.js"></script>
+
+<textarea ng-autosize></textarea>
+```
+
+js:
+
+```
+var app = angular.module("myModule", ["ngAutosize"]);
+```
     
-2.  在 angular app 中引入
-
-    ```
-    angular.module("myModule", ["ngAutosize]);
-    ```
-    
-3.  使用 directive
-
-    ```
-    <textarea ng-autosize></textarea>
-    ```
+##### 许可证
+[MIT](http://opensource.org/licenses/mit-license.php)
