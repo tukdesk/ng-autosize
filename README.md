@@ -2,6 +2,11 @@
 
 [autosize](https://github.com/jackmoore/autosize) 的 angular 版本
 
+##### 安装
+```
+bower install ng-autosize
+```
+
 ##### 使用方法:
 
 html:
