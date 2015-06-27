@@ -1,0 +1,20 @@
+{
+  "name": "ng-autosize",
+  "main": "ng-autosize.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tukdesk/ng-autosize",
+  "authors": [
+    "dtynn <dtynn@163.com>"
+  ],
+  "description": "An AngularJS directive for automatically adjusting textarea height to fit text.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "textarea",
+    "form",
+    "ui"
+  ],
+  "license": "MIT"
+}
